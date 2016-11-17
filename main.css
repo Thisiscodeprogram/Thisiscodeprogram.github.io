@@ -2,3 +2,15 @@ a:hover {
  color: green;
  font-family: Impact;
 }
+a:visited {
+ color: green;
+ font-family: Courier;
+}
+.footer {
+ border: 2px solid black;
+ background-color: white;
+}
+.footer > p {
+ font-family: Courier;
+ font-size; 10px;
+}
