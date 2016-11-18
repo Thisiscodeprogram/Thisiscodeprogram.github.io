@@ -51,3 +51,7 @@ a:visited {
  height: 50px;
  display: inline-block;
 }
+.meat {
+ border: 6px solid green;
+ background-color: blue;
+}
