@@ -38,3 +38,10 @@ a:visited {
  color: white;
  font-size; 10px;
 }
+#download_title {
+ color: white;
+ font-family: Courier;
+ text-align: center;
+ 
+}
+
