@@ -12,10 +12,16 @@ a:visited {
 }
 .footer > p {
  font-family: Courier;
- font-size; 10px;
+ font-size; 5px;
 }
 .title {
  border: 4px solid green;
  background-color: white;
+ 
+}
+.news {
+ border: 4px solid red;
+ background-color: green;
+ font-family: Courier;
  
 }
