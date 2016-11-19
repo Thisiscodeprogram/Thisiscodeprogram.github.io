@@ -1,0 +1,9 @@
+.basic {
+ opacity: 0;
+}
+.showbasic:focus ~ .basic {
+opacity: 100;
+}
+.hidebasic:focus ~ .basic {
+ opacity: 0;
+}
