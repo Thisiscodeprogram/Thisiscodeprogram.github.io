@@ -5,3 +5,27 @@
 .main {
  border: 4px solid black;
 }
+#youstupid {
+ display: none;
+}
+.youstupid {
+ display: none;
+}
+#yousmart {
+ display: none;
+}
+.yousmart {
+ display: none;
+}
+.button1:focus ~ img#yousmart {
+ display: block;
+}
+.button1:focus ~ .yousmart {
+ display: block;
+}
+.button2:focus ~ img#youstupid {
+ display: block;
+}
+button2:focus ~ .youstupid {
+ display: block;
+}
