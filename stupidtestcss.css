@@ -17,15 +17,15 @@
 .yousmart {
  display: none;
 }
-.button1:focus ~ img#yousmart {
+.button1:focus ~ #yousmart {
  display: block;
 }
 .button1:focus ~ .yousmart {
  display: block;
 }
-.button2:focus ~ img#youstupid {
+.button2:focus ~ #youstupid {
  display: block;
 }
-button2:focus ~ .youstupid {
+.button2:focus ~ .youstupid {
  display: block;
 }
