@@ -8,24 +8,13 @@
 img#youstupid {
  display: none;
 }
-img.youstupid {
+}
+img#yousmart {
  display: none;
 }
-#yousmart {
- display: none;
-}
-.yousmart {
- display: none;
-}
-.button1:focus ~ img#yousmart {
+.button1:checked + yousmart {
  display: block;
 }
-.button1:focus ~ img.yousmart {
- display: block;
-}
-.button2:focus ~ #youstupid {
- display: block;
-}
-.button2:focus ~ .youstupid {
+.button2:checked + youstupid {
  display: block;
 }
