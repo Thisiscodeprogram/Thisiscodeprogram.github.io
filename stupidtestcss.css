@@ -5,10 +5,10 @@
 .main {
  border: 4px solid black;
 }
-#youstupid {
+img#youstupid {
  display: none;
 }
-.youstupid {
+img.youstupid {
  display: none;
 }
 #yousmart {
@@ -17,10 +17,10 @@
 .yousmart {
  display: none;
 }
-.button1:focus ~ #yousmart {
+.button1:focus ~ img#yousmart {
  display: block;
 }
-.button1:focus ~ .yousmart {
+.button1:focus ~ img.yousmart {
  display: block;
 }
 .button2:focus ~ #youstupid {
